@@ -1,0 +1,9 @@
+
+	===> create java project
+	===> basic operation
+	===> conditional statements[if,if..lese,ladderif..else,nested if..else]
+	===> switch(Menu Driven)
+	===> loop[for while do..while]
+	===> Nested Loop
+	===> Array[1D,2'D,N'D]
+	===> String
