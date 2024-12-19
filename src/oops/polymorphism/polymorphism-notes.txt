@@ -34,11 +34,6 @@ HDFC<-----------Person--------->SbiBank---retRoi()--7%
 
 
 
-
-
-
-
-
 		    Type of Polymorphism
 		-----------------------------
 		|			    |
@@ -73,6 +68,44 @@ char-------------------->int
 
 
 
+
+
+		Vehicle(void getSpec(){General--History})
+		  |
+ ------------------------------------
+ |		  |		   |
+TwVehicle     LmvVehicle         HmvVehicle	
+getSpec()	getSpec()	getSpec()
+getTwModelInfo(); getLmvModelInfo();  getHmvModelInfo();
+
+Vehicle vehicle = new Vehicle();
+
+Vehicle vehicle = null;
+
+// Polymorphisc Object--->Upcasting
+vehicle = new TwVehicle();
+vehicle.getSpec();
+
+vehicle = new LmvVehicle();
+vehicle.getSpec();
+
+
+vehicle = new HmvVehicle();
+vehicle.getSpec();
+
+
+
+
+
+
+
+		Royal(courseTraining())
+		 |
+  -------------------------------------
+   |		 |		|
+  s1		s2		s3
+courseTraining() courseTraining() courseTraining()
+  Python	OCJP 		Spring
 
 
 
