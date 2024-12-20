@@ -1,0 +1,27 @@
+Runtime Polymorphism:-
+----------------------
+			Employee
+			  |			
+			 Org
+			  |
+Student<--School<-------[Person]-------->PublicPlace--->Citizen
+		      (getBehave())
+			  |
+			 Home
+			  |
+		      Son/Daughter
+----------------------------------------------------------------------------------------------
+
+				Person(void getBehave())
+				  |	
+	---------------------------------------------------------------------------
+	|			  |			|			|
+       Org			Home		     PublicPlace	     School
+    getBehave()		      getBehave()	     getBehave()	     getBehave()
+  getWorkOnTask()            getMovieOnTime()       getPublicEvent()	    getAnnualFunction(); 
+	|			  |			|			|
+    Employee		      Son/Daughter	      Citizen 		      Student	
+
+		
+
+			
