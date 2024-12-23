@@ -1,0 +1,73 @@
+1) class
+2) object
+3) encapsulation
+4) inheritance
+5) polymorphism
+6) abstrcation
+----------------------------------------------------------------------------------
+Abstraction 
+===> Abstraction in Java is one of the core principles of object-oriented programming (OOP). It is a process of hiding the implementation details and showing only the essential features of an object. This helps reduce complexity and allows the programmer to focus on interactions at a high level without worrying about the inner workings.
+
+Key Points about Abstraction:
+
+Purpose: Abstraction is used to simplify complex systems by breaking them into smaller, more manageable pieces.
+
+Implementation: It is achieved in Java using:
+
+Interfaces
+
+			Type of Abstraction
+		----------------------------------
+		|				|
+	1) 0% to 100% Abstraction	2) 100% Abstraction
+	--------------------------	-------------------
+	===> Abstract Classes		===> interface(pure java abstract class)
+
+abstract class A1
+{
+	void test1()
+	{
+	}
+}
+
+
+abstract class A
+{
+	// abstract method
+	abstract void test1();
+
+	// Non-abstract method
+	void test2()
+	{
+
+	}
+}
+abstract class B extends A
+{
+	void test1()
+	{
+		// B---specific implementations
+	}
+	abstract void test3();
+}
+class C extends B
+{
+	void test1()
+	{
+		// C---specific implementations
+	}
+	void test3()
+	{
+		// B---specific implementations
+	}
+}
+
+
+
+
+
+
+
+
+
+

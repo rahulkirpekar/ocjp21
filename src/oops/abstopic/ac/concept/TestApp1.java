@@ -4,6 +4,15 @@ public class TestApp1
 {
 	public static void main(String[] args) 
 	{
+		A obj = new B();
+		
+		
+		((B)obj).test2();
+		
+		
+		
+		
+		
 //		A obj = new A();// C.E
 		
 //		B obj = new B();

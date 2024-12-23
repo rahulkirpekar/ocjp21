@@ -15,6 +15,7 @@ public class B extends A
 //	@Override
 //	public void test2() 
 //	{
-//		System.out.println("B---test2()");
+//		super.test2();
+////		System.out.println("B---test2()");
 //	}
 }
