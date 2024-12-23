@@ -1,0 +1,126 @@
+Polymorphism:- Ability to take more than one form.
+--------------
+		Student
+		  |
+		School
+		  |
+Home<-----------Person-------->PublicPLace---> Citizen
+son/daughter  (getBehave())	(getBehave())
+		  |
+		 Org.
+		getBehave()
+		  |
+		Employee
+
+
+
+
+		  11%	
+		getRoi()---int
+		  |
+		AxisBank
+10%		  |
+HDFC<-----------Person--------->SbiBank---retRoi()--7%
+		  |
+		KotakBank
+		  |
+		getRoi()--12%
+
+
+
+
+
+
+
+
+
+		    Type of Polymorphism
+		-----------------------------
+		|			    |
+	1) CompileTime			2) RunTime
+	------------------		------------------
+	--->Static Binding		---> Dynamic Binding
+	--->Early Binding		---> Late Binding
+Example:-			Example:-	
+----------			----------
+	---> Method Overloadding	---> Method Overrdding
+
+
+Type pramotion Rule:-
+------------------------
+boolean----X
+
+			 byte
+			  |
+			short
+			  |
+char-------------------->int
+			  |
+			 long
+			  |
+			float
+			  |
+			double
+
+
+				
+
+
+
+
+
+
+		Vehicle(void getSpec(){General--History})
+		  |
+ ------------------------------------
+ |		  |		   |
+TwVehicle     LmvVehicle         HmvVehicle	
+getSpec()	getSpec()	getSpec()
+getTwModelInfo(); getLmvModelInfo();  getHmvModelInfo();
+
+Vehicle vehicle = new Vehicle();
+
+Vehicle vehicle = null;
+
+// Polymorphisc Object--->Upcasting
+vehicle = new TwVehicle();
+vehicle.getSpec();
+
+vehicle = new LmvVehicle();
+vehicle.getSpec();
+
+
+vehicle = new HmvVehicle();
+vehicle.getSpec();
+
+
+
+
+
+
+
+		Royal(courseTraining())
+		 |
+  -------------------------------------
+   |		 |		|
+  s1		s2		s3
+courseTraining() courseTraining() courseTraining()
+  Python	OCJP 		Spring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+

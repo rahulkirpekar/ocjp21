@@ -1,0 +1,34 @@
+		      RbiBank(int getRoi()--0)
+			 |
+--------------------------------------------------
+ |			  |			|		
+AxisBank 		SBIBank 	    KotakBank	
+getRoi()		getRoi()	    getRoi()
+  12%                      8%		      10%
+  |					getDigital_811_Account()	
+  |
+getWealthManagementServices()  
+			   |
+			getAgriculturalLoanSchemes()
+
+public class 	TestApp()
+{
+	public static void getBankingServices(RbiBank bank)
+	{
+		double rateOfInterest = bank.getRoi();		
+		SOP("Bank Rate of Interest for Loan : " +rateOfInterest)
+
+		if(bank instance of AxisBank)
+		{
+			....
+		}else if(bank instance of SbiBank)
+		{
+
+		}	
+	}	
+	main()
+	{
+		
+	}
+}	
+				
