@@ -1,0 +1,71 @@
+interface:-
+-----------
+
+public interface A
+{
+	// 1) constant variables---[public static final]
+	public int no = 10;// public static final
+
+	// 2) Abstract Method--[public abstract]
+	void test1();// public abstract 
+	
+	// 3) Non-Abstract Method(private,default,static)
+
+	// java-8
+	static void test2()
+	{
+
+	}
+	// java-8
+	default void test3()
+	{
+
+	}
+	// java-9
+	private void test4()
+	{
+
+	}
+}
+
+
+
+
+
+	class		interface		interface		class
+	 |--extends	  |--extends		  |--implements		  |---X(Not Possible in Java)	
+	class		interface		class			interface
+
+
+
+				interface--A(test1(),test2(),test3())
+				  |--extends
+				interface--B(test4(),test5())
+				  |--implements
+				class--C(test1(),test2(),test3(),test4(),test5())
+				
+
+				
+		   // A			    // B	 
+		   default void test1()     default void test1()
+		   {		    	    {	
+			
+		   }		             }		
+			A	B
+			|	|
+			----------
+			    |
+			    C
+	
+
+
+
+
+
+
+
+
+
+
+
+
