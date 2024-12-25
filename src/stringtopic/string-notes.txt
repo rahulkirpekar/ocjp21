@@ -1,0 +1,67 @@
+single character---char
+Multiple character---char Array
+String--class---built-in methods
+--------------------------------------------------------------------------------------------
+		Type of Operation on String Data
+		---------------------------------
+
+-----------------			-----------------
+1) ImmutableWay				2) MutableWay
+-----------------			-----------------
+	===>String(Class)		===>StringBuilder(Class)	
+					===>StringBuffer(Class)--Threadsafe
+
+===>String(Class)(ImmutableWay):-
+---------------------------------
+
+Object Equality:-
+-------------------
+	1) By reference(==)		2) By Value(.equals())
+	------------------		-----------------------	
+
+	System.out.println(name1==name2);// true
+
+
+
+	1) By String LiteralWay[RAM-----"HEAP"-------"SCP"[String Constant Pool]]:-
+	-------------------------------------------------------------------------------
+		String name1 = "Royal";
+		String name2 = "Royal";
+		String name3 = "technosoft";
+		String name4 = "technosoft";
+
+		//name1 = "abc";		
+		//name2 = "technosoft";
+		//String name5 = "royal";
+
+	2) By 'new' keyword Way[RAM----"Heap"]:-
+	----------------------------------------
+		
+		String name1 = new String("Royal");
+		String name2 = new String("Royal");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
