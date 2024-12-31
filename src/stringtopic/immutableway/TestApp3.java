@@ -4,15 +4,22 @@ public class TestApp3
 {
 	public static void main(String[] args) 
 	{
-		String name1 = "royal";
-
-		System.out.println("Name1 : " + name1 +"---"+name1.hashCode());// royal
+		//             01234
+		String name = "Royal";
+		System.out.println("name.length() : " + name.length());
 		
-		 name1 = "technosoft";
-		 System.out.println("Name1 : " + name1 +"---"+name1.hashCode());// technosoft
+//		System.out.println(name.charAt(0));// 0---R
+//		System.out.println(name.charAt(1));// 1---o
+//		System.out.println(name.charAt(2));// 2---y
+//		System.out.println(name.charAt(3));// 3---a
+//		System.out.println(name.charAt(4));// 4---l
 		
-		 // Immutable behaviour
-		 name1.concat(" pvt ltd");// "technosoft pvt ltd"
-		 System.out.println("Name1 : " + name1 +"---"+name1.hashCode());// technosoft
+		for(int i = 0 ; i < name.length();i++) 
+		{
+			System.out.println("name.charAt("+ i +") : "+name.charAt(i));
+		}
+		
+//		int a[] = new int[5];
+//		System.out.println("a.length : " + a.length);// length--operator--to get arrau size
 	}
 }
