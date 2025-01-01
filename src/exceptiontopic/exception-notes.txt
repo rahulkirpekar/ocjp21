@@ -1,0 +1,62 @@
+Exception---Abnormal things--operations.---JVM code crashed
+---------
+
+	statement---1
+	statement---2
+	statement---3
+	statement---4
+	statement---5---raise exception--JVM execution stop---code crashed
+	statement---6
+	statement---7
+	statement---8
+	statement---9
+	statement---10
+----------------------------------------------------------------------------------------------------
+			Type of Exception
+			-------------------
+	1) checked Exception			2) Un-checked Exception	
+	----------------------			-------------------------
+	compiletime Exception			Runtime Exception
+	compiler--compiletime			Runtime---JVM
+
+
+			Hierarchy of Exception
+			------------------------
+				
+				Throwable(C)
+				   |
+				Exception(C)
+				   |
+	---------------------------------------------------------
+	|--checked exception    				|--Unchecked exception
+--IOException						RuntimeException(C)	
+--SQLException							|
+--FileNotFoundException				---ArithmeticException	
+...						---NullPointerException
+						---StringIndexOutofBoundException
+						---ArrayIndexOutofBoundException
+						---NumberFormatException
+						---ClasscastException....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
