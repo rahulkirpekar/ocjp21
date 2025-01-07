@@ -10,7 +10,7 @@ public class TestApp5
 		{
 			// raise exception
 			throw new InvalidAgeException("Invalid Age for Vote,\n\tPlease enter age greater than 18");
-		} else 
+		} else 	
 		{
 			System.out.println("Welcome for Vote");
 		}

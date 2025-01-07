@@ -1,0 +1,14 @@
+InputStream(Read) / OutputStream(Write):-
+-------------------------------------------
+
+
+Byte Oriented Way Write/Read:-
+-----------------------------
+	1) FileOutputStream(File Data Write)
+	2) FileInputStream(File Data Read)
+
+
+Character Oriented Way Write/Read:-
+------------------------------------
+	1) FileWriter(Write)
+	2) FileReader(Read)
