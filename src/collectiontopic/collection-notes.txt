@@ -1,0 +1,138 @@
+Array Limitations:-
+--------------------
+
+	int a[] = new int[5];
+
+	1) SIZE
+	2) TYPE
+
+
+Collection Framework:- To overcome limitations of Array.
+----------------------
+
+			Hierarchy of Collection 
+			------------------------
+
+				Iterable(I)--------------------------------------------------------
+				   |								|
+				Collection(I)							|
+				   |								|
+				   |Data--(value)						|
+				   |								|
+	---------------------------------------------------------				|
+	|			   |				|				|
+      List(I)	  		Set(I)			     Queue(I)			       Map(I)---(Key,Value)
+	|			   |				|				|
+ AbstractList(AC)	    AbstractSet(AC)		AbstractQueue(AC)		   AbstractMap(AC)	
+	|			   |				|				|
+---ArrayList(C)		---HashSet(C)			PriorityQueue(C)		--HashMap(C)
+---LinkedList(C)	---LinkedHashSet(C)						--LinkedHashMap(C)	
+---Vector(C)		---TreeSet(C)							--TreeMap(C)
+
+  	
+		
+Data:-
+------
+	1) primitive	2) String		3) User Defined Objects(Student,Employee,Product)
+	
+
+
+1) primitive:-
+-------------
+				  Wrapperclass---convert into object---store---list,set,map,queue
+		  |			|	
+		1) boolean---------Boolean
+		2) byte------------Byte
+		3) char------------Character
+		4) short-----------Short
+		5) int-------------Integer
+		6) long------------Long
+		7) float-----------Float
+		8) double----------Double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+***************************************
+ Features of `List` Interface (Points) 
+***************************************
+1. Ordered collection.  
+2. Allows duplicates.  
+3. Zero-based indexing.  
+4. Random access (in some implementations).  
+5. Multiple implementations (e.g., `ArrayList`, `LinkedList`, `Vector`).  
+6. Methods for element manipulation (`add`, `remove`, `get`, etc.).  
+7. Iterable using loops, `Iterator`, and `ListIterator`.  
+8. Supports generics for type safety.  
+9. Allows `null` elements.  
+10. Provides `size()` for element count.  
+11. Supports `subList()` for sublist extraction.  
+12. Bidirectional traversal with `ListIterator`.  
+13. Sortable and searchable using `Collections` utilities.  
+14. Not synchronized (default).  
+15. Dynamic resizing in certain implementations.  
+16. Compatible with Stream API.  
+
+***************************************
+ Features of `ArrayList` in Points
+***************************************
+1. Dynamic Resizing: Automatically resizes when elements are added or removed.
+2. Ordered Collection: Maintains the insertion order of elements.
+3. Allows Duplicates: Supports duplicate elements.
+4. Zero-Based Indexing: Elements are accessed using zero-based indexes.
+5. Implements `List` Interface: Inherits methods like `add()`, `remove()`, `get()`, etc.
+6. Random Access: Allows fast retrieval of elements using indexes (`O(1)` complexity).
+7. Supports Null Elements: Can store `null` as a valid element.
+8. Not Synchronized: Not thread-safe unless explicitly synchronized.
+9. Generic Support: Allows defining the type of elements it holds, ensuring type safety.
+10. Backed by Array: Internally uses a resizable array to store elements.
+11. Easy Iteration: Supports iteration using loops, `Iterator`, and `ListIterator`.
+12. Customizable Initial Capacity: The initial size can be specified during creation.
+13. Amortized Performance: Resize operations have amortized `O(1)` time complexity.
+14. Serialization Support: Implements `Serializable` interface, allowing objects to be serialized.
+15. Sorting and Searching: Supports sorting and searching using `Collections` utility methods. 
+
+
+
+
+
+
+
+

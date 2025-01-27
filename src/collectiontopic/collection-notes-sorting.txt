@@ -1,0 +1,10 @@
+Sorting Techniques:-
+------------------------
+Single Attribute			Multiple Attributes
+       |					|
+-----------------------------		-----------------------------
+1) Comparable(I)			2) Comparator(I)
+	--> compareTo(Object obj1)		--> compare(Object obj1,Object obj2)
+
+
+	

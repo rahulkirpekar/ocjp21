@@ -7,7 +7,7 @@ public class Student implements Serializable
 {
 	private int rno;
 	private String name;
-	private int std;
+	private transient int std;
 	
 	public Student() 
 	{

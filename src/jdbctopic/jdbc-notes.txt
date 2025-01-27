@@ -1,0 +1,68 @@
+Database Connection:-
+---------------------
+
+	JavaProgram------>Connect------>Database
+
+JavaProgram
+
+	Database:-
+	-----------
+	1) URLNAME-
+	2) DRIVERCLASS
+	3) USERNAME
+	4) PASSWORD
+
+jar---Java Archieve---[Multiple classes]
+
+
+				JavaProgram
+				    |
+				    |	
+				    |Jdbc--Api	
+				    |	
+	---------------------------------------------------------------
+	 |		  |		   |			   |
+	 |		  |		   |			   |
+mysql-Connector.jar    odbc.jar          *.jar			 *.jar
+	 |		  |		   |			   |
+	 |		  |		   |			   |
+    Driver.class     Driver.class      Driver.class	       Driver.class	
+	 |		  |		   |			   |
+	 |		  |		   |			   |
+	MySql		Oracle		PostGress		MS-SQLServer
+
+
+
+
+
+
+
+src
+  |
+  --jdbctopic
+        |
+        --bean
+        --dao	
+        --util
+	   |
+	   ---DBConnection.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
