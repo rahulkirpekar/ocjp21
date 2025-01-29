@@ -1,0 +1,66 @@
+	Type of Statements
+	---------------------
+1) Statement(I)	:-
+------------------
+	===>C--Create-->Insert
+	===>R--Read---Select
+	===>U--Update---Update
+	===>D---Delete---Delete	
+
+
+2) PreparedStatement(I):-
+-------------------------
+	===>C--Create
+	===>R--Read
+	===>U--Update
+	===>D---Delete	
+
+3) CallableStatement(I):-
+-------------------------
+	===>procedures
+	===>function
+	===>triggers
+
+
+
+get---db---conn	---sql queries execute
+
+
+executeUpdate()---int	executeQuery()---ResultSet---Multiple Rows
+	  |		  |
+	insert		select
+	update
+	delete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	CREATE TABLE student
+	(
+		rno int PRIMARY KEY AUTO_INCREMENT,
+		name varchar(50),
+		std int,
+		marks int
+	);
+
+DAO---Data Access Object---[student]
+				insert
+				update
+				delete
