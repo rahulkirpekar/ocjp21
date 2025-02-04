@@ -18,6 +18,12 @@ public class StudentBean
 		this.std = std;
 		this.marks = marks;
 	}
+	public StudentBean(String name, int std, int marks) 
+	{
+		this.name = name;
+		this.std = std;
+		this.marks = marks;
+	}
 	public int getRno() {
 		return rno;
 	}
